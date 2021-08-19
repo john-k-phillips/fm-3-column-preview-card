@@ -1,6 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 section {
-  padding: 2em;
+  padding: 2.5em;
+}
+
+section img, section h2, section p {
+  margin-bottom: 1em;
+}
+
+section h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2em;
+}
+
+section p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.4em;
+  margin-bottom: 1.5em;
+}
+
+section button {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 2em;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .sedans {
@@ -8,13 +30,25 @@ section {
   border-radius: 0.5em 0.5em 0 0;
 }
 
+.sedans button {
+  color: #e38826;
+}
+
 .suvs {
   background-color: #006970;
+}
+
+.suvs button {
+  color: #006970;
 }
 
 .luxary {
   background-color: #004241;
   border-radius: 0 0 0.5em 0.5em;
+}
+
+.luxary button {
+  color: #004241;
 }
 
 * {
@@ -27,6 +61,7 @@ section {
 body {
   font-size: 15px;
   color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,5 +1,5 @@
 @import 'styles/variables';
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 @import 'styles/cards';
 
@@ -12,6 +12,7 @@
 body {
     font-size: 15px;
     color: $clr-light-gray;
+    font-family: $font-lexend;
 
     display: flex;
     justify-content: center;

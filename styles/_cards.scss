@@ -1,17 +1,49 @@
 section { 
-   padding: 2em;
+   padding: 2.5em;
+
+   img, h2, p {
+       margin-bottom: 1em;
+   }
+
+   h2 {
+       font-family: $font-big;
+       font-size: 2em;
+   }
+
+   p {
+       color: $clr-white-font;
+       line-height: 1.4em;
+       margin-bottom: 1.5em;
+   }
+
+   button {
+       padding: 1em 1.5em;
+
+       border: none;
+       border-radius: 2em;
+       font-family: $font-lexend;
+   }
 }
 
 .sedans {
     background-color: $clr-card-orange;
     border-radius: 0.5em 0.5em 0 0;
+    button {
+        color: $clr-card-orange;
+    }
 }
 
 .suvs {
     background-color: $clr-card-cyan;
+    button {
+        color: $clr-card-cyan;
+    }
 }
 
 .luxary {
     background-color: $clr-card-dark-cyan;
     border-radius: 0 0 0.5em 0.5em;
+    button {
+        color: $clr-card-dark-cyan;
+    }
 }
