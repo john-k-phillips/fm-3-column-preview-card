@@ -74,6 +74,7 @@ body {
 
 .container {
   width: 80%;
+  max-width: 1024px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,5 +82,22 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (min-width: 765px) {
+  body {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 60%;
+    max-height: 500px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
