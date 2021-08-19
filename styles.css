@@ -51,6 +51,27 @@ section button {
   color: #004241;
 }
 
+@media screen and (min-width: 765px) {
+  section {
+    position: relative;
+    padding: 2.5em;
+  }
+  section button {
+    position: absolute;
+    bottom: 3em;
+    padding: 1em 2em;
+  }
+  section p {
+    line-height: 1.5em;
+  }
+  .sedans {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+  .luxary {
+    border-radius: 0 0.5em 0.5em 0;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;

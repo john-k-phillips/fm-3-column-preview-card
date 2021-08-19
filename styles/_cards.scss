@@ -47,3 +47,27 @@ section {
         color: $clr-card-dark-cyan;
     }
 }
+
+@media screen and (min-width: 765px) {
+    section {
+        position: relative;
+        padding: 2.5em;
+        
+        button {
+            position: absolute;
+            bottom: 3em;
+
+            padding: 1em 2em;
+        }
+        p {
+            line-height: 1.5em;
+        }
+    }
+
+    .sedans {
+        border-radius: 0.5em 0 0 0.5em;
+    }
+    .luxary {
+        border-radius: 0 0.5em 0.5em 0;
+    }
+}
