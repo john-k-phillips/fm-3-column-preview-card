@@ -1,4 +1,5 @@
 @import 'styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
 
 * {
     margin: 0px;
@@ -7,5 +8,11 @@
 }
 
 body {
-    
+    font-size: 15px;
+}
+
+@media screen and (min-width: 765px) {
+}
+
+@media screen and (min-width: 1440px) {
 }
