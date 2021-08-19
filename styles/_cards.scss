@@ -32,6 +32,11 @@ section {
            background-color: transparent;
            color: $clr-light-gray;
        }
+       &:focus {
+           background-color: transparent;
+           outline: none;
+           color: $clr-light-gray;
+       }
    }
 }
 
