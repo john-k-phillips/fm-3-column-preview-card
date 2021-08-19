@@ -1,0 +1,20 @@
+{
+  "name": "3-column-preview-card-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-k-phillips/fm-3-column-preview-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-k-phillips/fm-3-column-preview-card/issues"
+  },
+  "homepage": "https://github.com/john-k-phillips/fm-3-column-preview-card#readme"
+}
