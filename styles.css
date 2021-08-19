@@ -23,6 +23,16 @@ section button {
   border: none;
   border-radius: 2em;
   font-family: "Lexend Deca", sans-serif;
+  border: 2px solid #f2f2f2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+section button:hover {
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+  color: #f2f2f2;
 }
 
 .sedans {

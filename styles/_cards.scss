@@ -22,6 +22,16 @@ section {
        border: none;
        border-radius: 2em;
        font-family: $font-lexend;
+       border: 2px solid $clr-light-gray;
+
+       transition: all 0.5s ease;
+
+       cursor: pointer;
+       &:hover {
+           border: 2px solid $clr-light-gray;
+           background-color: transparent;
+           color: $clr-light-gray;
+       }
    }
 }
 
