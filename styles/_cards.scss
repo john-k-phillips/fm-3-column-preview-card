@@ -1,0 +1,17 @@
+section { 
+   padding: 2em;
+}
+
+.sedans {
+    background-color: $clr-card-orange;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.suvs {
+    background-color: $clr-card-cyan;
+}
+
+.luxary {
+    background-color: $clr-card-dark-cyan;
+    border-radius: 0 0 0.5em 0.5em;
+}
