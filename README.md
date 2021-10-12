@@ -5,7 +5,7 @@
 <p>
   This is a solution to the 
   
-  [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
+  [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2).
   
   Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 </p>
@@ -34,7 +34,7 @@ Your users should be able to:
 <h3>The Good</h3>
   <ul>
     <li>Semantic HTML5</li>
-    <li>Really happy with the fade in out animation on the buttons..</li>
+    <li>Really happy with the fade in out animation on the buttons.</li>
   </ul>
 <h3>The Bad</h3>
   <ul>
