@@ -30,7 +30,7 @@ Your users should be able to:
 ![](./design/mobile-design.jpg)
 
 <!-- REPLACE LIST ITEMS -->
-<h2>Satisfication</h2>
+<h2>Satisfaction</h2>
 <h3>The Good</h3>
   <ul>
     <li>Semantic HTML5</li>
@@ -55,7 +55,7 @@ Your users should be able to:
     I decided to invest a small amount of time animating the buttons, this wasn't a requirement, although; I know it's something I don't
     usually do and would like to practice it more.
   </p>
-<h3>Continuted Development</h3>
+<h3>Continued Development</h3>
   <p>
     I am happy with the result of this project and will not continue development.
   </p>
